@@ -11,6 +11,7 @@ namespace Jenkins_CI_Demo_Test
         [Fact]
         public void Test1()
         {
+            // Initail test
             var valueController = new ValuesController();
             var response = valueController.Get(1);
             Assert.IsType<string>(response);
